@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Repository moved to: https://github.com/VatsalSy/comphy_vscode_themes
 - Extension description updated to emphasize computational physics workflow optimization
 - Added "comphy" and "computational physics" to extension keywords
+- **BREAKING**: Extension ID changed from `gruvbox-crisp-tex` to `comphy-gruvbox` (creates new marketplace listing)
 
 ### Migration Notes
 
