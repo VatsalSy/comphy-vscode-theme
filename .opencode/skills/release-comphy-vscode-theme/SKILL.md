@@ -69,17 +69,19 @@ npm run lint
 npm test
 ```
 
-### Package (Optional Local)
+### Package VSIX (Required)
 
 ```bash
+VERSION=$(node -p "require('./package.json').version")
 npx @vscode/vsce package
+mv "comphy-gruvbox-$VERSION.vsix" comphy-gruvbox.vsix
 ```
 
 ### Execute Release
 
 ```bash
 VERSION=$(node -p "require('./package.json').version")
-git add package.json CHANGELOG.md themes/*.json
+git add package.json CHANGELOG.md themes/*.json comphy-gruvbox.vsix
 git commit -m "Release v$VERSION"
 git tag -a "v$VERSION" -m "Release v$VERSION"
 git push --follow-tags

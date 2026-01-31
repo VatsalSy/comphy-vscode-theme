@@ -3,7 +3,7 @@
   "publisher": "vatsalsy",
   "displayName": "CoMPhy Gruvbox Color Theme Collection",
   "description": "A collection of high-contrast themes based on Gruvbox with clear foregrounds, optimized for computational physics workflows",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "engines": {
     "vscode": "^1.50.0"
   },

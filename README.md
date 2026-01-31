@@ -1,12 +1,11 @@
 # CoMPhy Gruvbox Color Theme Collection
 
-[![Version](https://img.shields.io/github/v/release/VatsalSy/comphy_vscode_themes)](https://github.com/VatsalSy/comphy_vscode_themes/releases)
 [![License](https://img.shields.io/github/license/VatsalSy/comphy_vscode_themes)](LICENSE)
-[![Download VSIX](https://img.shields.io/github/v/release/VatsalSy/comphy_vscode_themes?label=download%20VSIX&color=blue)](https://github.com/VatsalSy/comphy_vscode_themes/releases/latest)
+[![Download VSIX](https://img.shields.io/badge/download%20VSIX-raw-blue)](https://raw.githubusercontent.com/VatsalSy/comphy_vscode_themes/main/comphy-gruvbox.vsix)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/VatsalSy/comphy_vscode_themes/publish.yml?label=publish)](https://github.com/VatsalSy/comphy_vscode_themes/actions)<br>
-[![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/vatsalsy.gruvbox-crisp-tex?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=vatsalsy.gruvbox-crisp-tex)
-[![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/vatsalsy.gruvbox-crisp-tex?label=rating)](https://marketplace.visualstudio.com/items?itemName=vatsalsy.gruvbox-crisp-tex)<br>
-[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/vatsalsy/gruvbox-crisp-tex?label=Open%20VSX)](https://open-vsx.org/extension/vatsalsy/gruvbox-crisp-tex)<br>
+[![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/vatsalsy.comphy-gruvbox?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-gruvbox)
+[![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/vatsalsy.comphy-gruvbox?label=rating)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-gruvbox)<br>
+[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/vatsalsy/comphy-gruvbox?label=Open%20VSX)](https://open-vsx.org/extension/vatsalsy/comphy-gruvbox)<br>
 
 A collection of high-contrast VSCode themes based on the Gruvbox color scheme, optimized for clarity, readability, and enhanced language support.
 
@@ -41,13 +40,14 @@ This theme collection is based on the excellent [Gruvbox Theme by jdinhify](http
 3. Search for "CoMPhy Gruvbox"
 4. Click Install
 
-### From GitHub
+### From Source (VSIX)
 
 1. Clone the repository: `git clone https://github.com/VatsalSy/comphy_vscode_themes.git`
-2. Open VSCode
-3. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-4. Click "Install from VSIX..."
-5. Select the `.vsix` file from the cloned repository
+2. Build the VSIX package: `./scripts/build.sh --package`
+3. Open VSCode
+4. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+5. Click "Install from VSIX..."
+6. Select the generated `.vsix` file from the repository root
 
 ## Building from Source
 

@@ -5,6 +5,17 @@ All notable changes to the CoMPhy Gruvbox Color Theme Collection will be documen
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1] - 2026-01-31
+
+### Added
+
+- Add `.gitignore` for common OS, editor, and build artifacts.
+
+### Changed
+
+- Update README badges and marketplace links to the `comphy-gruvbox` listing and raw VSIX download.
+- Make VSIX packaging a required release step and include the packaged `.vsix` in release commits.
+
 ## [2.0.0] - 2025-01-09
 
 ### Changed
