@@ -1,11 +1,11 @@
-# CoMPhy Gruvbox Color Theme Collection
+# CoMPhy Color Theme Collection
 
-[![License](https://img.shields.io/github/license/VatsalSy/comphy_vscode_themes)](LICENSE)
-[![Download VSIX](https://img.shields.io/badge/download%20VSIX-raw-blue)](https://raw.githubusercontent.com/VatsalSy/comphy_vscode_themes/main/comphy-gruvbox.vsix)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/VatsalSy/comphy_vscode_themes/publish.yml?label=publish)](https://github.com/VatsalSy/comphy_vscode_themes/actions)<br>
-[![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/vatsalsy.comphy-gruvbox?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-gruvbox)
-[![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/vatsalsy.comphy-gruvbox?label=rating)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-gruvbox)<br>
-[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/vatsalsy/comphy-gruvbox?label=Open%20VSX)](https://open-vsx.org/extension/vatsalsy/comphy-gruvbox)<br>
+[![License](https://img.shields.io/github/license/VatsalSy/comphy-vscode-theme)](LICENSE)
+[![Download VSIX](https://img.shields.io/badge/download%20VSIX-raw-blue)](https://raw.githubusercontent.com/VatsalSy/comphy-vscode-theme/main/comphy-theme.vsix)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/VatsalSy/comphy-vscode-theme/publish.yml?label=publish)](https://github.com/VatsalSy/comphy-vscode-theme/actions)<br>
+[![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/vatsalsy.comphy-theme?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-theme)
+[![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/vatsalsy.comphy-theme?label=rating)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-theme)<br>
+[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/vatsalsy/comphy-theme?label=Open%20VSX)](https://open-vsx.org/extension/vatsalsy/comphy-theme)<br>
 
 A collection of high-contrast VSCode themes based on the Gruvbox color scheme, optimized for clarity, readability, and enhanced language support.
 
@@ -37,12 +37,12 @@ This theme collection is based on the excellent [Gruvbox Theme by jdinhify](http
 
 1. Open VSCode
 2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "CoMPhy Gruvbox"
+3. Search for "CoMPhy Color Theme Collection"
 4. Click Install
 
 ### From Source (VSIX)
 
-1. Clone the repository: `git clone https://github.com/VatsalSy/comphy_vscode_themes.git`
+1. Clone the repository: `git clone https://github.com/VatsalSy/comphy-vscode-theme.git`
 2. Build the VSIX package: `./scripts/build.sh --package`
 3. Open VSCode
 4. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
@@ -61,8 +61,8 @@ This theme collection is based on the excellent [Gruvbox Theme by jdinhify](http
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/VatsalSy/comphy_vscode_themes.git
-   cd comphy_vscode_themes
+   git clone https://github.com/VatsalSy/comphy-vscode-theme.git
+   cd comphy-vscode-theme
    ```
 
 2. Run the build script:

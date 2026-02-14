@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# CoMPhy Gruvbox Theme Extension Build Script
+# CoMPhy Color Theme Extension Build Script
 # This script builds the theme extension and packages it for distribution
 
 set -e  # Exit on error
@@ -30,7 +30,7 @@ if [ ! -f "package.json" ]; then
     exit 1
 fi
 
-info "Starting CoMPhy Gruvbox Theme build process..."
+info "Starting CoMPhy Color Theme build process..."
 
 # Step 1: Check dependencies
 info "Checking Node.js installation..."

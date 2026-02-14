@@ -60,7 +60,7 @@ jobs:
           fi
 
           echo "Checking version $VERSION on VS Marketplace..."
-          if npx @vscode/vsce show vatsalsy.comphy-gruvbox $VERSION --json 2>/dev/null | grep -q "\"version\": \"$VERSION\""; then
+          if npx @vscode/vsce show vatsalsy.comphy-theme $VERSION --json 2>/dev/null | grep -q "\"version\": \"$VERSION\""; then
             VS_EXISTS="true"
             echo "::notice::Version $VERSION already exists on VS Marketplace"
           else
@@ -68,7 +68,7 @@ jobs:
           fi
 
           echo "Checking version $VERSION on Open VSX Registry..."
-          if npx ovsx get vatsalsy.comphy-gruvbox $VERSION --json 2>/dev/null | grep -q "\"version\": \"$VERSION\""; then
+          if npx ovsx get vatsalsy.comphy-theme $VERSION --json 2>/dev/null | grep -q "\"version\": \"$VERSION\""; then
             OVSX_EXISTS="true"
             echo "::notice::Version $VERSION already exists on Open VSX Registry"
           else
