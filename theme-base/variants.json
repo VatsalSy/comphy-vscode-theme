@@ -1,27 +1,13 @@
 {
-  "gruvbox-crisp-soft": {
-    "name": "CoMPhy Gruvbox (Soft)",
-    "type": "dark",
-    "background": "#32302f",
-    "backgroundTransparent": "#32302f00",
-    "fileName": "gruvbox-crisp-soft.json",
-    "additionalColors": {
-      "list.hoverBackground": "#2a2827",
-      "selection.background": "#665c5480",
-      "editor.selectionBackground": "#665c5470",
-      "editor.selectionHighlightBackground": "#7c6f6450",
-      "peekViewResult.selectionBackground": "#665c54",
-      "peekViewEditor.background": "#2a2827"
-    }
-  },
   "gruvbox-crisp-high-contrast": {
-    "name": "CoMPhy Gruvbox (High Contrast)",
+    "name": "CoMPhy Gruvbox Classic",
     "type": "dark",
     "background": "#1d2021",
     "backgroundTransparent": "#1d202100",
     "fileName": "gruvbox-crisp-high-contrast.json",
     "additionalColors": {
       "editorLineNumber.activeForeground": "#fe8019",
+      "editor.lineHighlightBackground": "#ebdbb210",
       "list.hoverBackground": "#1a1a1a",
       "selection.background": "#7c6f6480",
       "editor.selectionBackground": "#7c6f6470",
@@ -30,57 +16,18 @@
       "peekViewEditor.background": "#1a1a1a"
     }
   },
-  "gruvbox-crisp-anysphere-high-contrast": {
-    "name": "CoMPhy Gruvbox Anysphere (High Contrast)",
-    "type": "dark",
-    "background": "#141414",
-    "backgroundTransparent": "#14141400",
-    "fileName": "gruvbox-crisp-anysphere-high-contrast.json",
-    "additionalColors": {
-      "sideBar.background": "#141414",
-      "activityBar.background": "#0d0d0d",
-      "button.background": "#68236d",
-      "button.hoverBackground": "#7a2a80",
-      "progressBar.background": "#a35db0",
-      "focusBorder": "#a35db0",
-      "textLink.foreground": "#a35db0",
-      "textLink.activeForeground": "#b48ead",
-      "tab.activeBorder": "#a35db0",
-      "panelTitle.activeBorder": "#a35db0",
-      "list.hoverBackground": "#1f1f1f",
-      "selection.background": "#7c6f6480",
-      "editor.selectionBackground": "#7c6f6470",
-      "editor.selectionHighlightBackground": "#92837450",
-      "peekViewResult.selectionBackground": "#7c6f64",
-      "peekViewEditor.background": "#1f1f1f"
-    },
-    "tokenColorOverrides": {
-      "constant.numeric": "#a35db0",
-      "entity.name.type": "#a35db0",
-      "entity.name.class": "#a35db0",
-      "support.class": "#a35db0",
-      "entity.name.function.decorator": "#68236d",
-      "meta.decorator": "#68236d"
-    },
-    "semanticTokenColorOverrides": {
-      "type": "#a35db0",
-      "class": "#a35db0",
-      "interface": "#a35db0",
-      "namespace": "#b48ead",
-      "typeParameter": "#a35db0"
-    }
-  },
   "gruvbox-crisp-anysphere-contrast-pop": {
-    "name": "CoMPhy Gruvbox Anysphere (Highest Contrast, pop)",
+    "name": "CoMPhy Gruvbox Pop",
     "type": "dark",
     "background": "#000000",
     "backgroundTransparent": "#00000000",
     "fileName": "gruvbox-crisp-anysphere-contrast-pop.json",
     "additionalColors": {
       "editor.background": "#000000",
-      "editor.foreground": "#ffffff",
+      "editor.foreground": "#e8e0d4",
       "editorCursor.foreground": "#9b4fa0",
       "editor.selectionBackground": "#bd93f930",
+      "editor.lineHighlightBackground": "#ffffff0d",
       "editorLineNumber.activeForeground": "#ffb86c",
 
       "sideBar.background": "#0a0a0a",
@@ -91,7 +38,6 @@
       "editor.hoverHighlightBackground": "#1a1a1a20",
       "list.hoverBackground": "#1a1a1a",
       "selection.background": "#bd93f950",
-      "editor.selectionBackground": "#bd93f940",
       "editor.selectionHighlightBackground": "#bd93f930",
       "peekViewResult.selectionBackground": "#bd93f960",
       "peekViewEditor.background": "#1a1a1a",
@@ -106,6 +52,8 @@
       "textLink.activeForeground": "#d6acff",
 
       "editorCodeLens.foreground": "#6272a4",
+      "editorStickyScroll.background": "#000000",
+      "editorStickyScrollHover.background": "#212121",
       "editorInlayHint.foreground": "#6272a4",
       "editorInlayHint.background": "#000000",
 
@@ -133,11 +81,12 @@
       "terminal.ansiBrightWhite": "#ffffff"
     },
     "tokenColorOverrides": {
-      "comment": "#6272a4",
+      "comment": "#7887ab",
       "string": "#50fa7b",
       "keyword": "#f1fa8c",
       "entity.name.function": "#ff79c6",
-      "variable": "#f8f8f2",
+      "entity.name.function.c": "#ff79c6",
+      "variable": "#e2dcd0",
       "constant.numeric": "#bd93f9",
       "entity.name.type": "#8be9fd",
       "support.class": "#8be9fd",
@@ -151,7 +100,9 @@
       "class": "#8be9fd",
       "interface": "#8be9fd",
       "namespace": "#bd93f9",
-      "typeParameter": "#8be9fd"
+      "typeParameter": "#8be9fd",
+      "decorator": "#9b4fa0",
+      "macro": "#fabd2f"
     }
   }
 }

@@ -7,29 +7,38 @@
 [![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/vatsalsy.comphy-theme?label=rating)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-theme)<br>
 [![Open VSX Downloads](https://img.shields.io/open-vsx/dt/vatsalsy/comphy-theme?label=Open%20VSX)](https://open-vsx.org/extension/vatsalsy/comphy-theme)<br>
 
-A collection of high-contrast VSCode themes based on the Gruvbox color scheme, optimized for clarity, readability, and enhanced language support.
+Two flagship dark themes based on Gruvbox, built for long coding sessions in Python, C, and LaTeX.
 
 ## Acknowledgment
 
-This theme collection is based on the excellent [Gruvbox Theme by jdinhify](https://github.com/jdinhify/vscode-theme-gruvbox). The original theme provided a solid foundation for building these customized variants. The Anysphere variants are inspired by the Cursor Dark Anysphere theme.
+This theme collection is based on the excellent [Gruvbox Theme by jdinhify](https://github.com/jdinhify/vscode-theme-gruvbox). The Pop variant draws inspiration from the Cursor Dark Anysphere and Dracula palettes.
 
-## Changes from Original Theme
+## Theme Variants
 
-- Higher contrast between background and foreground colors
-- Modified semantic token colors for better readability
-- Enhanced syntax highlighting for modern language features
-- Adjusted UI element colors for clearer visual hierarchy
-- Optimized terminal colors for better visibility
-- Refined bracket pair colorization
-- Added comprehensive LaTeX support with specialized syntax highlighting (all variants)
+### CoMPhy Gruvbox Classic
+
+Traditional Gruvbox dark with `#1d2021` background. Warm, familiar palette optimized for readability with properly differentiated terminal bright colors and WCAG-aware comment contrast.
+
+### CoMPhy Gruvbox Pop
+
+Pure black (`#000000`) background with a vibrant Dracula-inspired syntax palette. Designed for maximum visual impact and all-day comfort:
+
+- Warm off-white foreground (`#e8e0d4`) to reduce halation
+- Hot pink functions, bright green strings, pale yellow keywords
+- Purple/cyan type system, muted blue-gray comments
+- Subtle line highlighting visible on pure black
 
 ## Features
 
-- High contrast theme based on Gruvbox Dark
-- Clear, non-hazy foreground colors
-- Optimized syntax highlighting for multiple languages
-- Consistent UI elements
-- Semantic token coloring support
+- Dedicated C/C++ syntax scopes (preprocessor, macros, structs, pointers, sizeof)
+- Markdown heading hierarchy (H1-H6 warm-to-cool color gradient)
+- Enhanced Shell scripting (pipes, redirects, heredocs, builtins)
+- CSS/SCSS support (IDs, pseudo-classes, variables, units, !important)
+- Python enhancements (docstrings, exceptions, logical operators)
+- Regex highlighting (patterns, character classes, quantifiers, anchors)
+- ~30 semantic token definitions including Python-specific tokens
+- Comprehensive LaTeX support (math mode, citations, sections)
+- UI polish: sticky scroll, breadcrumbs, notifications, diff editor, inlay hints
 
 ## Installation
 
@@ -112,72 +121,33 @@ To test your changes locally:
 2. Press `F5` to launch the Extension Development Host
 3. The extension will be loaded in a new VSCode window for testing
 
-## Theme Variants
+## Color Palettes
 
-This collection includes four variants of the Gruvbox Dark theme:
-
-1. **CoMPhy Gruvbox (High Contrast)** - Uses a dark Gruvbox background (`#1d2021`) for strong readability with classic Gruvbox accents
-2. **CoMPhy Gruvbox (Soft)** - Uses a softer Gruvbox background (`#32302f`) for reduced eye strain in long sessions
-3. **CoMPhy Gruvbox Anysphere (High Contrast)** - Uses a darker Anysphere-style background (`#141414`) with modern purple accents
-4. **CoMPhy Gruvbox Anysphere (Highest Contrast, pop)** - Uses pure black (`#000000`) and a vibrant pop palette for maximum visual impact
-
-All variants maintain the same high-quality syntax highlighting and specialized language support (including TeX/LaTeX), differing in their background intensity and color schemes.
-
-## CoMPhy Gruvbox Anysphere (High Contrast)
-
-The **Anysphere (High Contrast)** variant combines Gruvbox token structure with a darker, modern UI surface:
-
-- **Darker UI Foundation**: Uses `#141414` editor/sidebar surfaces and `#0d0d0d` activity bar for stronger contrast than classic Gruvbox backgrounds
-- **Purple-led Accent System**: Uses `#a35db0` for focus, tabs, links, and type-related tokens
-- **Consistent Navigation Cues**: Keeps active tab/panel borders and hover states visually prominent without going full pure-black
-
-## CoMPhy Gruvbox Anysphere (Highest Contrast, pop)
-
-Note: this variant intentionally diverges from the classic Gruvbox palette — see the full variant docs at docs/highest-contrast-version.md.
-
-The **Highest Contrast, pop** variant is designed for maximum visual impact and monitors requiring extreme contrast:
-
-- **Pure Black Background**: Uses true black (#000000) for the editor to achieve maximum contrast
-- **Vibrant "Pop" Colors**: Features a Dracula-inspired palette with highly saturated, distinctive colors:
-  - Comments: #6272a4 (muted blue-gray for reduced distraction)
-  - Strings: #50fa7b (bright green)
-  - Keywords: #f1fa8c (pale yellow)
-  - Functions: #ff79c6 (hot pink)
-  - Numbers: #bd93f9 (bright purple)
-  - Types: #8be9fd (bright cyan)
-- **Visual Hierarchy**: Subtle variation with sidebars using #0a0a0a while editor remains pure black
-- **Enhanced Navigation**: Includes hover highlights for better code exploration
-
-**Note**: This variant uses pure black (#000000) specifically for monitors that need extreme contrast and maximum "pop" effect. Some users may find pure black causes eye strain on OLED displays - in such cases, consider using the standard High Contrast variants instead.
-
-## Color Palette (Original Gruvbox Variants)
-
-The traditional variants use the following Gruvbox colors:
+### Classic (Gruvbox)
 
 - Background: #1d2021 (Dark0 Hard)
 - Foreground: #ebdbb2 (Light1)
-- Red: #fb4934
-- Green: #b8bb26
-- Yellow: #fabd2f
-- Blue: #83a598
-- Purple: #d3869b
-- Aqua: #8ec07c
-- Orange: #fe8019
+- Red: #fb4934, Green: #b8bb26, Yellow: #fabd2f
+- Blue: #83a598, Purple: #d3869b, Aqua: #8ec07c, Orange: #fe8019
+
+### Pop (Dracula-inspired)
+
+- Background: #000000, Foreground: #e8e0d4
+- Functions: #ff79c6, Strings: #50fa7b, Keywords: #f1fa8c
+- Numbers: #bd93f9, Types: #8be9fd, Comments: #7887ab, Operators: #ffb86c
 
 ## Language Support
 
 Enhanced syntax highlighting for:
-- Python
-- JavaScript/TypeScript
-- Java
-- C/C++
-- Go
-- HTML/CSS
-- JSON
-- Markdown
-- Shell scripts
-- LaTeX/TeX (with specialized math, environment, and reference highlighting in all theme variants)
-- And more...
+- Python (including docstrings, exceptions, decorators, type annotations)
+- C/C++ (preprocessor directives, macros, structs, pointers, sizeof)
+- LaTeX/TeX (math mode, environments, citations, references, sections)
+- JavaScript/TypeScript (classes, modules, interfaces, enums)
+- Shell scripts (pipes, redirects, heredocs, builtins, command substitution)
+- CSS/SCSS (IDs, pseudo-classes, variables, units, property values)
+- Markdown (H1-H6 heading hierarchy, blockquotes, lists, code blocks)
+- Regex (patterns, character classes, quantifiers, anchors)
+- HTML/JSX, Go, Rust, JSON, YAML
 
 ## Customization
 
@@ -186,10 +156,10 @@ To customize the theme, you can override settings in your `settings.json`:
 ```json
 {
   "workbench.colorCustomizations": {
-    "[CoMPhy Gruvbox (High Contrast)]": {
+    "[CoMPhy Gruvbox Classic]": {
       // Add your customizations here
     },
-    "[CoMPhy Gruvbox Anysphere (High Contrast)]": {
+    "[CoMPhy Gruvbox Pop]": {
       // Add your customizations here
     }
   }

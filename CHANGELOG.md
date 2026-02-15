@@ -5,17 +5,42 @@ All notable changes to the CoMPhy Color Theme Collection will be documented in t
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [4.0.0] - 2026-02-15
+
+### Added
+
+- **C/C++ syntax scopes**: 8 new rules for preprocessor directives, macro names, include paths, struct/union/enum types, pointer/address operators, sizeof/alignof, function definitions, and member access operators.
+- **Markdown heading hierarchy**: H1-H6 with warm-to-cool color gradient (red, orange, yellow, green, blue, purple). Additional rules for blockquotes, list markers, fenced code language, and strikethrough.
+- **Shell script enhancements**: 5 new rules for keywords, pipe/redirect operators, command substitution, builtins, and heredocs.
+- **CSS/SCSS scopes**: ID selectors, pseudo-classes, property values, units, CSS variables, and `!important`.
+- **Python enhancements**: Docstrings (italic gray, comment-like), exception classes, and logical operators.
+- **Regex scopes**: Patterns, character classes, quantifiers, and anchors.
+- **Semantic tokens expanded** from 17 to ~32: Added `decorator`, `selfParameter:python`, `clsParameter:python`, `magicFunction:python`, `variable.defaultLibrary`, `function.defaultLibrary`, `class.defaultLibrary`, `type.defaultLibrary`, `macro`, `label`, `property.readonly`, `variable.declaration`, `function.declaration`, `method.declaration`.
+- **UI polish**: Sticky scroll backgrounds, breadcrumb colors, notification colors, diff editor backgrounds, gutter indicators, and inlay hint styling.
+- **Terminal bright color differentiation** (Classic): Bright variants now visually distinct from normal ANSI colors.
 
 ### Changed
 
-- Simplified theme labels by removing the redundant `with TeX` suffix from classic Gruvbox variants.
-- Updated docs to reflect TeX/LaTeX support across all remaining variants.
+- **BREAKING**: Consolidated from 4 themes to 2 flagship themes:
+  - "CoMPhy Gruvbox (High Contrast)" renamed to **"CoMPhy Gruvbox Classic"**
+  - "CoMPhy Gruvbox Anysphere (Highest Contrast, pop)" renamed to **"CoMPhy Gruvbox Pop"**
+- **Comment contrast improved**: Base comments changed from `#7c6f64` (~2.8:1) to `#928374` (~4.5:1 on Classic). Pop comments changed from `#6272a4` (~3.2:1) to `#7887ab` (~5.0:1 on black).
+- **Pop foreground softened**: Changed from pure white `#ffffff` to warm off-white `#e8e0d4` (14.8:1 contrast, still AAA) to reduce halation during long sessions.
+- **Pop variable color**: Changed from `#f8f8f2` to `#e2dcd0` for better visual hierarchy.
+- **Line highlight visibility**: Classic uses `#ebdbb210` (warm tint at 6% opacity), Pop uses `#ffffff0d` (white at 5% opacity).
+- **LaTeX comment color** updated to match base comment color `#928374`.
 
 ### Removed
 
-- `CoMPhy Gruvbox (Medium)` variant.
-- `CoMPhy Gruvbox Anysphere Blend` variant.
+- **BREAKING**: `CoMPhy Gruvbox (Soft)` variant (too similar to Classic).
+- **BREAKING**: `CoMPhy Gruvbox Anysphere (High Contrast)` variant (middle ground that served no distinct purpose).
+- `CoMPhy Gruvbox (Medium)` variant (removed in prior unreleased work).
+- `CoMPhy Gruvbox Anysphere Blend` variant (removed in prior unreleased work).
+
+### Migration Notes
+
+- Users of the removed Soft or Anysphere HC variants should switch to **Classic** or **Pop**.
+- Theme names have changed -- reselect your preferred theme in VSCode settings after updating.
 
 ## [3.0.0] - 2026-02-14
 
