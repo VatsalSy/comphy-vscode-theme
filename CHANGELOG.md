@@ -25,8 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - "CoMPhy Gruvbox (High Contrast)" renamed to **"CoMPhy Gruvbox Classic"**
   - "CoMPhy Gruvbox Anysphere (Highest Contrast, pop)" renamed to **"CoMPhy Gruvbox Pop"**
 - **Comment contrast improved**: Base comments changed from `#7c6f64` (~2.8:1) to `#928374` (~4.5:1 on Classic). Pop comments changed from `#6272a4` (~3.2:1) to `#7887ab` (~5.0:1 on black).
-- **Pop foreground softened**: Changed from pure white `#ffffff` to warm off-white `#e8e0d4` (14.8:1 contrast, still AAA) to reduce halation during long sessions.
-- **Pop variable color**: Changed from `#f8f8f2` to `#e2dcd0` for better visual hierarchy.
+- **Pop foreground softened**: Now uses warm off-white `#e8e0d4` instead of pure white `#ffffff` (14.8:1 contrast, still AAA) to reduce halation during long sessions.
+- **Pop variable color**: Updated from `#f8f8f2` to `#e2dcd0` for better visual hierarchy.
 - **Line highlight visibility**: Classic uses `#ebdbb210` (warm tint at 6% opacity), Pop uses `#ffffff0d` (white at 5% opacity).
 - **LaTeX comment color** updated to match base comment color `#928374`.
 
