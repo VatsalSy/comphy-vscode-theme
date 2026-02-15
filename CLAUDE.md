@@ -9,13 +9,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Debug theme: F5 in VSCode to launch Extension Development Host
 
 ## Architecture Overview
-This is a VSCode theme extension that provides six CoMPhy Gruvbox-based color themes:
-1. **CoMPhy Gruvbox (High Contrast, with TeX)** - Hard dark background (#1d2021)
-2. **CoMPhy Gruvbox (Medium, with TeX)** - Medium dark background (#282828)
-3. **CoMPhy Gruvbox (Soft, with TeX)** - Soft dark background (#32302f)
-4. **CoMPhy Gruvbox Anysphere Blend** - Cursor Dark Anysphere-inspired colors with Gruvbox token organization
-5. **CoMPhy Gruvbox Anysphere (High Contrast)** - Darker Anysphere variant with enhanced contrast
-6. **CoMPhy Gruvbox Anysphere (Highest Contrast, pop)** - Pure black variant for maximum visual impact
+This is a VSCode theme extension that provides two flagship CoMPhy Gruvbox-based color themes:
+1. **CoMPhy Gruvbox Classic** - Traditional Gruvbox hard dark background (#1d2021)
+2. **CoMPhy Gruvbox Pop** - Pure black (#000000) with vibrant Dracula-inspired syntax palette
 
 ## Theme File Structure
 Theme JSON files in `themes/` directory follow this organization:
@@ -28,20 +24,19 @@ Theme JSON files in `themes/` directory follow this organization:
 ## Development Guidelines
 - JSON formatting: 2-space indentation
 - Use descriptive comments to delineate sections in theme files
-- Theme naming convention: "CoMPhy Gruvbox ([Contrast Level], [Special Feature])"
+- Theme naming convention: "CoMPhy Gruvbox [Variant]" (Classic, Pop)
 - Color declarations should reference Gruvbox palette names in comments
-- When adding new theme variants, maintain consistent token coloring patterns across all themes
-- Test theme modifications across multiple languages, especially LaTeX support
+- All edits go to source files in `theme-base/` -- never edit `themes/*.json` directly
+- Test theme modifications across multiple languages, especially C, Python, and LaTeX
 - Increment version in package.json for all changes before pushing
 
 ## Color Palettes
-### Traditional Gruvbox Colors:
-- Background variants: #1d2021 (hard), #282828 (medium), #32302f (soft)
-- Foreground: #ebdbb2
+### Classic (Gruvbox):
+- Background: #1d2021, Foreground: #ebdbb2
 - Red: #fb4934, Green: #b8bb26, Yellow: #fabd2f
 - Blue: #83a598, Purple: #d3869b, Aqua: #8ec07c, Orange: #fe8019
 
-### Anysphere Blend Colors:
-- Background: #1a1a1a (editor), #141414 (sidebar)
-- Red: #BF616A, Green: #A3BE8C, Yellow: #EBCB8B
-- Blue: #88C0D0, Purple: #A35DB0, Magenta: #B48EAD
+### Pop (Dracula-inspired):
+- Background: #000000, Foreground: #e8e0d4
+- Functions: #ff79c6, Strings: #50fa7b, Keywords: #f1fa8c
+- Numbers: #bd93f9, Types: #8be9fd, Comments: #7887ab, Operators: #ffb86c

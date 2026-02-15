@@ -1,18 +1,16 @@
 # Color Palette Reference
 
-This document centralizes the color palettes used across the CoMPhy Gruvbox theme variants to avoid duplication and keep maintenance simple.
+This document centralizes the color palettes used across the two shipped CoMPhy Gruvbox variants: Classic and Pop.
 
-## Traditional Gruvbox Colors
+## Traditional Gruvbox Colors (Classic)
 
 ### Background Colors
 
-- `#1d2021` (Dark0 Hard) - High-contrast background
-- `#282828` (Dark0) - Medium-contrast background
-- `#32302f` (Dark0 Soft) - Soft-contrast background
-- `#3c3836` (Dark1) - UI elements
-- `#504945` (Dark2) - Selection background
-- `#665c54` (Dark3) - Inactive elements
-- `#7c6f64` (Dark4) - Comments
+- `#1d2021` (Dark0 Hard) - Primary editor background
+- `#3c3836` (Dark1) - Elevated UI surfaces
+- `#504945` (Dark2) - Selection and active states
+- `#665c54` (Dark3) - Muted/inactive UI elements
+- `#928374` (Dark4 Updated) - Readable comments and subtle text
 
 ### Foreground Colors
 
@@ -31,32 +29,32 @@ This document centralizes the color palettes used across the CoMPhy Gruvbox them
 - `#8ec07c` (Bright Aqua) - Strings
 - `#fe8019` (Bright Orange) - Numbers
 
-## Anysphere Blend Colors
+## Gruvbox Pop Variant Colors
 
 ### Background Colors
 
-- `#0a0a0a` (Ultra-Dark) - High-contrast variant
-- `#141414` (Sidebar) - Sidebar background
-- `#1a1a1a` (Editor) - Main editor background
-- `#292929` (Hover) - Hover states
-- `#363636` (Selection) - Selection background
+- `#000000` (Pure Black) - Editor/status background for maximum contrast
+- `#0a0a0a` (Near Black) - Sidebar/activity bar background
+- `#1a1a1a` (Dark Hover) - Hover/peek surfaces
+- `#212121` (Raised Dark) - Sticky scroll hover, terminal black
+- `#ffffff0d` (Soft Line Highlight) - Active line highlight
 
 ### Foreground Colors
 
-- `#d8dee9` (Primary) - Main text color
-- `#ffffff` (Bright) - Emphasized text
-- `#cccccc` (Medium) - Secondary text
-- `#6d6d6d` (Comments) - Comment text
+- `#e8e0d4` (Warm Off-White) - Primary editor text
+- `#e2dcd0` (Soft Off-White) - Variable text
+- `#ffffff` (Bright White) - Terminal bright white and emphasis
+- `#7887ab` (Blue-Gray) - Comments, code lens, inlay hints
 
 ### Accent Colors
 
-- `#bf616a` (Red) - Errors, keywords
-- `#a3be8c` (Green) - Strings
-- `#ebcb8b` (Yellow) - Functions
-- `#88c0d0` (Blue) - Types
-- `#a35db0` (Purple) - Constants
-- `#b48ead` (Magenta) - Special
-- `#fe8019` (Orange) - Numbers
+- `#ff79c6` (Hot Pink) - Functions
+- `#f1fa8c` (Pale Yellow) - Keywords
+- `#50fa7b` (Bright Green) - Strings and additions
+- `#8be9fd` (Bright Cyan) - Types
+- `#bd93f9` (Bright Purple) - Focus, links, numbers
+- `#9b4fa0` (Deep Purple) - Cursor, decorators, buttons
+- `#ffb86c` (Orange) - Operators and active line number
 
 ## Contrast Guidelines
 
@@ -64,4 +62,3 @@ All color combinations are tested to meet WCAG AA standards:
 
 - Normal text: 4.5:1 minimum contrast ratio
 - Large text: 3:1 minimum contrast ratio
-
