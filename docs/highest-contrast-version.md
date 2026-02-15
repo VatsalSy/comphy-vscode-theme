@@ -1,15 +1,15 @@
-# CoMPhy Gruvbox Anysphere (Highest Contrast, pop) Theme
+# CoMPhy Gruvbox Pop Theme
 
 ## Overview
 
-The **Highest Contrast, pop** variant is designed for maximum visual impact and monitors requiring extreme contrast. This theme prioritizes ultra-high readability through stark contrasts paired with vibrant, saturated colors inspired by the Dracula color palette. Note: This variant intentionally diverges from the traditional Gruvbox palette to achieve its distinctive high-contrast "pop" aesthetic.
+**CoMPhy Gruvbox Pop** is the high-intensity variant in this collection. It pairs a pure black background with a warm off-white foreground and saturated accent colors for maximum separation between code elements.
 
 ## Design Philosophy
 
-- **Maximum Contrast**: Pure black background (#000000) with pure white foreground (#ffffff)
-- **Vibrant "Pop" Aesthetics**: Highly saturated colors for immediate visual feedback
-- **Visual Hierarchy**: Subtle variation between editor and UI elements
-- **Enhanced Navigation**: Hover states for improved code exploration
+- **Maximum Contrast**: Pure black editor background (`#000000`) with warm off-white text (`#e8e0d4`)
+- **High-Visibility Syntax**: Saturated accent palette for fast token recognition
+- **Intentional UI Hierarchy**: Near-black UI surfaces to keep focus on code
+- **Comfort Tuning**: Pop text softened from pure white to reduce halation in long sessions
 
 ## Color Palette
 
@@ -17,136 +17,83 @@ The **Highest Contrast, pop** variant is designed for maximum visual impact and 
 
 | Component | Color | Hex | Purpose |
 |-----------|-------|-----|---------|
-| **Editor Background** | Pure Black | #000000 | Maximum contrast foundation |
-| **Editor Foreground** | Pure White | #ffffff | Crystal clear text visibility |
-| **Sidebar Background** | Near Black | #0a0a0a | Subtle visual hierarchy |
-| **Activity Bar Background** | Near Black | #0a0a0a | UI separation |
-| **Cursor** | Purple | #9b4fa0 | Visual focus indicator |
-| **Selection Background** | Translucent Purple | #bd93f930 | Highlighted text backdrop |
+| **Editor Background** | Pure Black | `#000000` | Maximum contrast foundation |
+| **Editor Foreground** | Warm Off-White | `#e8e0d4` | High readability with reduced glare |
+| **Sidebar / Activity Bar** | Near Black | `#0a0a0a` | Subtle visual hierarchy |
+| **Cursor** | Deep Purple | `#9b4fa0` | Visual focus indicator |
+| **Selection Background** | Translucent Purple | `#bd93f930` | Highlighted text backdrop |
 
 ### Syntax Highlighting Colors
 
 | Element | Color | Hex | Purpose |
 |---------|-------|-----|---------|
-| **Comments** | Blue-Gray | #6272a4 | Reduced distraction while remaining visible |
-| **Strings** | Bright Green | #50fa7b | High visibility for string literals |
-| **Keywords** | Pale Yellow | #f1fa8c | Clear keyword prominence |
-| **Functions** | Hot Pink | #ff79c6 | Distinctive function calls |
-| **Numbers** | Bright Purple | #bd93f9 | Numeric constant visibility |
-| **Types** | Bright Cyan | #8be9fd | Type distinction |
-| **Operators** | Orange | #ffb86c | Clear operator visibility |
-| **Variables** | Near White | #f8f8f2 | Standard variable text |
-| **Decorators** | Dark Purple | #9b4fa0 | Decorator/annotation highlighting |
+| **Comments** | Blue-Gray | `#7887ab` | Reduced distraction while staying readable |
+| **Strings** | Bright Green | `#50fa7b` | High visibility for string literals |
+| **Keywords** | Pale Yellow | `#f1fa8c` | Strong keyword prominence |
+| **Functions** | Hot Pink | `#ff79c6` | Distinctive callable symbols |
+| **Numbers** | Bright Purple | `#bd93f9` | Numeric constant visibility |
+| **Types** | Bright Cyan | `#8be9fd` | Type distinction |
+| **Operators** | Orange | `#ffb86c` | Clear operator visibility |
+| **Variables** | Soft Off-White | `#e2dcd0` | Neutral body text with hierarchy |
+| **Decorators** | Deep Purple | `#9b4fa0` | Annotation highlighting |
 
 ### UI Accent Colors
 
 | Element | Color | Hex | Purpose |
 |---------|-------|-----|---------|
-| **Focus Border** | Bright Purple | #bd93f9 | Active element indication |
-| **Button Background** | Purple | #9b4fa0 | Interactive element base |
-| **Button Hover** | Light Purple | #a977ff | Interactive feedback |
-| **Progress Bar** | Bright Purple | #bd93f9 | Progress indication |
-| **Text Links** | Bright Purple | #bd93f9 | Clickable text |
-| **Active Text Links** | Light Purple | #d6acff | Link hover state |
-| **Active Line Number** | Orange | #ffb86c | Current line indicator |
-| **Tab Active Border** | Bright Purple | #bd93f9 | Active tab highlight |
-
-### Hover States
-
-| Element | Color | Hex | Purpose |
-|---------|-------|-----|---------|
-| **Editor Hover Highlight** | Translucent Gray | #1a1a1a20 | Code hover indication |
-| **List Hover Background** | Dark Gray | #1a1a1a | Sidebar item hover |
+| **Focus Border** | Bright Purple | `#bd93f9` | Active element indication |
+| **Button Background** | Deep Purple | `#9b4fa0` | Interactive element base |
+| **Button Hover** | Light Purple | `#a977ff` | Interactive feedback |
+| **Progress Bar** | Bright Purple | `#bd93f9` | Progress indication |
+| **Text Links** | Bright Purple | `#bd93f9` | Clickable text |
+| **Active Line Number** | Orange | `#ffb86c` | Current line indicator |
+| **Line Highlight** | Translucent White | `#ffffff0d` | Low-noise row tracking |
 
 ### Terminal ANSI Colors
 
 | Color | Normal | Hex | Bright | Hex |
 |-------|--------|-----|--------|-----|
-| **Black** | Dark Gray | #212121 | Blue-Gray | #6272a4 |
-| **Red** | Red | #ff5555 | Bright Red | #ff6e6e |
-| **Green** | Green | #50fa7b | Bright Green | #69ff94 |
-| **Yellow** | Yellow | #f1fa8c | Bright Yellow | #ffffa5 |
-| **Blue** | Blue | #6cb6ff | Bright Blue | #79c7ff |
-| **Magenta** | Magenta | #bd93f9 | Bright Magenta | #d6acff |
-| **Cyan** | Cyan | #8be9fd | Bright Cyan | #a4ffff |
-| **White** | Light Gray | #cccccc | Pure White | #ffffff |
-
-*Note: terminal.ansiBlack is set to #212121 instead of pure black to ensure black ANSI text remains visible against the black background.*
-
-*Footnote (ANSI Bright Black): Using #6272a4 for “bright black” is intentional to improve readability of comments and dim text, but it diverges from common terminal semantics where bright black is a lighter gray. Some CLI tools/themes may assume a gray tone for this slot; if you prefer standard behavior, substitute #4d4d4d for ANSI bright black.*
-
-### Diff & Version Control Colors
-
-| Element | Color | Hex | Purpose |
-|---------|-------|-----|---------|
-| **Inserted Text Background** | Translucent Green | #50fa7b30 | Added content highlight |
-| **Removed Text Background** | Translucent Red | #ff555530 | Deleted content highlight |
-| **Added Gutter** | Bright Green | #50fa7b | Line addition indicator |
-| **Modified Gutter** | Orange | #ffb86c | Line modification indicator |
-| **Deleted Gutter** | Red | #ff5555 | Line deletion indicator |
-
-### Code Lens & Inlay Hints
-
-| Element | Color | Hex | Purpose |
-|---------|-------|-----|---------|
-| **Code Lens Foreground** | Blue-Gray | #6272a4 | Subtle inline information |
-| **Inlay Hint Foreground** | Blue-Gray | #6272a4 | Type hints and parameters |
-| **Inlay Hint Background** | Pure Black | #000000 | Maintains contrast |
-
-## Semantic Token Colors
-
-| Token Type | Color | Hex |
-|------------|-------|-----|
-| **Type** | Bright Cyan | #8be9fd |
-| **Class** | Bright Cyan | #8be9fd |
-| **Interface** | Bright Cyan | #8be9fd |
-| **Namespace** | Bright Purple | #bd93f9 |
-| **Type Parameter** | Bright Cyan | #8be9fd |
+| **Black** | Dark Gray | `#212121` | Blue-Gray | `#6272a4` |
+| **Red** | Red | `#ff5555` | Bright Red | `#ff6e6e` |
+| **Green** | Green | `#50fa7b` | Bright Green | `#69ff94` |
+| **Yellow** | Yellow | `#f1fa8c` | Bright Yellow | `#ffffa5` |
+| **Blue** | Blue | `#6cb6ff` | Bright Blue | `#79c7ff` |
+| **Magenta** | Magenta | `#bd93f9` | Bright Magenta | `#d6acff` |
+| **Cyan** | Cyan | `#8be9fd` | Bright Cyan | `#a4ffff` |
+| **White** | Light Gray | `#cccccc` | Bright White | `#ffffff` |
 
 ## Contrast Ratios
 
-Most color combinations meet or exceed WCAG AAA standards:
+Most color combinations meet or exceed WCAG AA requirements:
 
-- **White on Black**: 21:1 (WCAG AAA - Maximum possible contrast)
-- **Bright Colors on Black**: 8:1 to 15:1 (WCAG AAA - Excellent readability)
-- **Comments on Black**: 5.5:1 (WCAG AA - Readable while subdued)
-- **Selection Highlight**: Translucent overlay maintains text readability
+- **Primary text on background** (`#e8e0d4` on `#000000`): very high contrast
+- **Comment text on background** (`#7887ab` on `#000000`): readable while subdued
+- **Accent tokens on background**: designed for quick visual separation
 
 ## Usage Recommendations
 
 ### Ideal For
 
-- Monitors with poor contrast capabilities
-- Users requiring maximum visual distinction
-- High ambient light environments
-- Extended coding sessions requiring clear element distinction
+- Monitors that benefit from very high contrast
+- Bright ambient light environments
+- Users who prefer saturated syntax accents
+- Extended coding sessions where fast token recognition matters
 
 ### Considerations
 
-- Pure black (#000000) may cause eye strain on OLED displays
-- Some users may find the high saturation levels intense
-- The vibrant colors are optimized for dark environments
+- Pure black UI can feel intense on some displays
+- Saturated accents are intentionally bold and not minimalistic
 
-## Technical Implementation
+## Comparison with Shipped Variants
 
-This theme variant is generated from base configurations with the following specific overrides:
-
-1. **Pure black editor background** for maximum contrast
-2. **Sidebar differentiation** using #0a0a0a for visual hierarchy
-3. **Removed selection foreground** to allow VS Code/Cursor auto-calculation
-4. **Enhanced hover states** for better navigation
-5. **Fixed terminal black** color for ANSI text visibility
-
-## Comparison with Other Variants
-
-| Aspect | Standard Gruvbox | Anysphere (High Contrast) | Highest Contrast, pop |
-|--------|------------------|---------------------------|----------------------|
-| **Background** | #1d2021 to #32302f | #141414 | #000000 |
-| **Contrast Level** | High | High | Maximum |
-| **Color Saturation** | Moderate | Moderate | Very High |
-| **Accent Colors** | Gruvbox palette | Anysphere palette | Dracula-inspired |
-| **Use Case** | General use | Modern UI + strong contrast | Maximum visibility |
+| Aspect | CoMPhy Gruvbox Classic | CoMPhy Gruvbox Pop |
+|--------|-------------------------|--------------------|
+| **Background** | `#1d2021` | `#000000` |
+| **Contrast Level** | High | Maximum |
+| **Color Saturation** | Earthy Gruvbox | Vibrant pop |
+| **Accent Profile** | Traditional Gruvbox accents | Dracula-inspired accents |
+| **Use Case** | Daily balanced coding | Maximum visibility and punch |
 
 ## Installation Note
 
-This theme is included in the CoMPhy Gruvbox Color Theme Collection. After installation, select "CoMPhy Gruvbox Anysphere (Highest Contrast, pop)" from the color theme picker in VS Code or Cursor.
+This theme is included in the CoMPhy Color Theme Collection. After installation, choose either **CoMPhy Gruvbox Classic** or **CoMPhy Gruvbox Pop** from the color theme picker in VS Code or Cursor.
