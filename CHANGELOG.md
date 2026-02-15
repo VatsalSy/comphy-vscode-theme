@@ -5,6 +5,18 @@ All notable changes to the CoMPhy Color Theme Collection will be documented in t
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+
+- Simplified theme labels by removing the redundant `with TeX` suffix from classic Gruvbox variants.
+- Updated docs to reflect TeX/LaTeX support across all remaining variants.
+
+### Removed
+
+- `CoMPhy Gruvbox (Medium)` variant.
+- `CoMPhy Gruvbox Anysphere Blend` variant.
+
 ## [3.0.0] - 2026-02-14
 
 ### Changed

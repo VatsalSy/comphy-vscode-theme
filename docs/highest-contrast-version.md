@@ -139,13 +139,13 @@ This theme variant is generated from base configurations with the following spec
 
 ## Comparison with Other Variants
 
-| Aspect | Standard Gruvbox | Anysphere Blend | Highest Contrast, pop |
-|--------|------------------|-----------------|----------------------|
-| **Background** | #1d2021 to #32302f | #1a1a1a | #000000 |
+| Aspect | Standard Gruvbox | Anysphere (High Contrast) | Highest Contrast, pop |
+|--------|------------------|---------------------------|----------------------|
+| **Background** | #1d2021 to #32302f | #141414 | #000000 |
 | **Contrast Level** | High | High | Maximum |
 | **Color Saturation** | Moderate | Moderate | Very High |
 | **Accent Colors** | Gruvbox palette | Anysphere palette | Dracula-inspired |
-| **Use Case** | General use | Modern aesthetic | Maximum visibility |
+| **Use Case** | General use | Modern UI + strong contrast | Maximum visibility |
 
 ## Installation Note
 

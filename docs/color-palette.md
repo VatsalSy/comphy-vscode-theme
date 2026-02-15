@@ -7,7 +7,6 @@ This document centralizes the color palettes used across the CoMPhy Gruvbox them
 ### Background Colors
 
 - `#1d2021` (Dark0 Hard) - High-contrast background
-- `#282828` (Dark0) - Medium-contrast background
 - `#32302f` (Dark0 Soft) - Soft-contrast background
 - `#3c3836` (Dark1) - UI elements
 - `#504945` (Dark2) - Selection background
@@ -31,7 +30,7 @@ This document centralizes the color palettes used across the CoMPhy Gruvbox them
 - `#8ec07c` (Bright Aqua) - Strings
 - `#fe8019` (Bright Orange) - Numbers
 
-## Anysphere Blend Colors
+## Anysphere Variant Colors
 
 ### Background Colors
 
@@ -64,4 +63,3 @@ All color combinations are tested to meet WCAG AA standards:
 
 - Normal text: 4.5:1 minimum contrast ratio
 - Large text: 3:1 minimum contrast ratio
-

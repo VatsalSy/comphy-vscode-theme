@@ -27,27 +27,15 @@
   "contributes": {
     "themes": [
       {
-        "label": "CoMPhy Gruvbox (High Contrast, with TeX)",
+        "label": "CoMPhy Gruvbox (High Contrast)",
         "uiTheme": "vs-dark",
         "path": "./themes/gruvbox-crisp-high-contrast.json",
         "semanticHighlighting": true
       },
       {
-        "label": "CoMPhy Gruvbox (Medium, with TeX)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/gruvbox-crisp-medium.json",
-        "semanticHighlighting": true
-      },
-      {
-        "label": "CoMPhy Gruvbox (Soft, with TeX)",
+        "label": "CoMPhy Gruvbox (Soft)",
         "uiTheme": "vs-dark",
         "path": "./themes/gruvbox-crisp-soft.json",
-        "semanticHighlighting": true
-      },
-      {
-        "label": "CoMPhy Gruvbox Anysphere Blend",
-        "uiTheme": "vs-dark",
-        "path": "./themes/gruvbox-crisp-anysphere.json",
         "semanticHighlighting": true
       },
       {

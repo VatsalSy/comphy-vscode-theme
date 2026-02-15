@@ -11,7 +11,7 @@ A collection of high-contrast VSCode themes based on the Gruvbox color scheme, o
 
 ## Acknowledgment
 
-This theme collection is based on the excellent [Gruvbox Theme by jdinhify](https://github.com/jdinhify/vscode-theme-gruvbox). The original theme provided a solid foundation for building these customized variants. The Anysphere Blend variant is inspired by the Cursor Dark Anysphere theme.
+This theme collection is based on the excellent [Gruvbox Theme by jdinhify](https://github.com/jdinhify/vscode-theme-gruvbox). The original theme provided a solid foundation for building these customized variants. The Anysphere variants are inspired by the Cursor Dark Anysphere theme.
 
 ## Changes from Original Theme
 
@@ -114,33 +114,22 @@ To test your changes locally:
 
 ## Theme Variants
 
-This collection includes six variants of the Gruvbox Dark theme:
+This collection includes four variants of the Gruvbox Dark theme:
 
-1. **High Contrast (Hard)** - Uses the darkest background (#1d2021) for maximum contrast
-2. **Medium** - Uses a balanced background (#282828) for comfortable viewing
-3. **Soft** - Uses a softer background (#32302f) for reduced eye strain
-4. **Anysphere Blend** - A fusion of Gruvbox structure with Cursor Dark Anysphere colors
-5. **CoMPhy Gruvbox Anysphere (High Contrast)** - Darker Anysphere variant with enhanced contrast
-6. **CoMPhy Gruvbox Anysphere (Highest Contrast, pop)** - Pure black variant for maximum visual impact
+1. **CoMPhy Gruvbox (High Contrast)** - Uses a dark Gruvbox background (`#1d2021`) for strong readability with classic Gruvbox accents
+2. **CoMPhy Gruvbox (Soft)** - Uses a softer Gruvbox background (`#32302f`) for reduced eye strain in long sessions
+3. **CoMPhy Gruvbox Anysphere (High Contrast)** - Uses a darker Anysphere-style background (`#141414`) with modern purple accents
+4. **CoMPhy Gruvbox Anysphere (Highest Contrast, pop)** - Uses pure black (`#000000`) and a vibrant pop palette for maximum visual impact
 
-All variants maintain the same high-quality syntax highlighting and specialized language support, differing in their background intensity and color schemes.
+All variants maintain the same high-quality syntax highlighting and specialized language support (including TeX/LaTeX), differing in their background intensity and color schemes.
 
-## CoMPhy Gruvbox Anysphere Blend
+## CoMPhy Gruvbox Anysphere (High Contrast)
 
-The newest addition to the collection, **CoMPhy Gruvbox Anysphere Blend**, combines the structured token highlighting of Gruvbox with the modern color palette of Cursor Dark Anysphere:
+The **Anysphere (High Contrast)** variant combines Gruvbox token structure with a darker, modern UI surface:
 
-- **Modern UI**: Adopts Cursor's darker gray backgrounds (#1a1a1a for editor, #141414 for sidebars) with cleaner borders and highlights
-- **Refined Color Palette**: Uses Cursor's vibrant yet balanced colors:
-  - Red: #BF616A
-  - Green: #A3BE8C
-  - Yellow: #EBCB8B
-  - Blue: #88C0D0
-  - Purple: #A35DB0 (custom lighter purple, different from Gruvbox's #d3869b)
-  - Magenta: #B48EAD
-- **Enhanced Readability**: Maintains the excellent readability of Gruvbox while updating visual aesthetics
-- **Consistent Experience**: Terminal colors and UI elements are harmonized with the editor theme
-
-This variant provides a perfect blend for users who appreciate Gruvbox's token organization but prefer a more modern aesthetic inspired by Cursor's design language. The custom purple (#A35DB0) is one of the most distinctive features, used for constants, prototype objects, and other special language elements.
+- **Darker UI Foundation**: Uses `#141414` editor/sidebar surfaces and `#0d0d0d` activity bar for stronger contrast than classic Gruvbox backgrounds
+- **Purple-led Accent System**: Uses `#a35db0` for focus, tabs, links, and type-related tokens
+- **Consistent Navigation Cues**: Keeps active tab/panel borders and hover states visually prominent without going full pure-black
 
 ## CoMPhy Gruvbox Anysphere (Highest Contrast, pop)
 
@@ -197,10 +186,10 @@ To customize the theme, you can override settings in your `settings.json`:
 ```json
 {
   "workbench.colorCustomizations": {
-    "[CoMPhy Gruvbox (High Contrast, with TeX)]": {
+    "[CoMPhy Gruvbox (High Contrast)]": {
       // Add your customizations here
     },
-    "[CoMPhy Gruvbox Anysphere Blend]": {
+    "[CoMPhy Gruvbox Anysphere (High Contrast)]": {
       // Add your customizations here
     }
   }
