@@ -26,8 +26,8 @@
       "editor.background": "#000000",
       "editor.foreground": "#e8e0d4",
       "editorCursor.foreground": "#9b4fa0",
-      "editor.selectionBackground": "#bd93f930",
-      "editor.lineHighlightBackground": "#ffffff0d",
+      "editor.selectionBackground": "#bd93f950",
+      "editor.lineHighlightBackground": "#ffffff24",
       "editorLineNumber.activeForeground": "#ffb86c",
 
       "sideBar.background": "#0a0a0a",
@@ -38,7 +38,7 @@
       "editor.hoverHighlightBackground": "#1a1a1a20",
       "list.hoverBackground": "#1a1a1a",
       "selection.background": "#bd93f950",
-      "editor.selectionHighlightBackground": "#bd93f930",
+      "editor.selectionHighlightBackground": "#bd93f950",
       "peekViewResult.selectionBackground": "#bd93f960",
       "peekViewEditor.background": "#1a1a1a",
 
