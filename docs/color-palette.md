@@ -37,7 +37,7 @@ This document centralizes the color palettes used across the two shipped CoMPhy 
 - `#0a0a0a` (Near Black) - Sidebar/activity bar background
 - `#1a1a1a` (Dark Hover) - Hover/peek surfaces
 - `#212121` (Raised Dark) - Sticky scroll hover, terminal black
-- `#ffffff0d` (Soft Line Highlight) - Active line highlight
+- `#ffffff24` (Soft Line Highlight) - Active line highlight
 
 ### Foreground Colors
 

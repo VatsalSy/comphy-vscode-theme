@@ -21,7 +21,7 @@
 | **Editor Foreground** | Warm Off-White | `#e8e0d4` | High readability with reduced glare |
 | **Sidebar / Activity Bar** | Near Black | `#0a0a0a` | Subtle visual hierarchy |
 | **Cursor** | Deep Purple | `#9b4fa0` | Visual focus indicator |
-| **Selection Background** | Translucent Purple | `#bd93f930` | Highlighted text backdrop |
+| **Selection Background** | Translucent Purple | `#bd93f950` | Highlighted text backdrop |
 
 ### Syntax Highlighting Colors
 
@@ -47,7 +47,7 @@
 | **Progress Bar** | Bright Purple | `#bd93f9` | Progress indication |
 | **Text Links** | Bright Purple | `#bd93f9` | Clickable text |
 | **Active Line Number** | Orange | `#ffb86c` | Current line indicator |
-| **Line Highlight** | Translucent White | `#ffffff0d` | Low-noise row tracking |
+| **Line Highlight** | Translucent White | `#ffffff24` | Low-noise row tracking |
 
 ### Terminal ANSI Colors
 
